@@ -1,0 +1,6 @@
+ignore:
+  resource_names:
+  - Rule
+controller_name: recyclebin
+sdk_names:
+  model_name: rbin 
