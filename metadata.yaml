@@ -1,8 +1,8 @@
 service:
-  full_name:
-  short_name:
-  link:
-  documentation:
+  full_name: Amazon EBS Recycle Bin
+  short_name: Recycle Bin
+  link: https://docs.aws.amazon.com/ebs/latest/userguide/recycle-bin.html
+  documentation: https://docs.aws.amazon.com/recyclebin/latest/APIReference/Welcome.html
 api_versions:
   - api_version: v1alpha1
     status: available
