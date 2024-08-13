@@ -3,17 +3,19 @@
 ---
 annotations:
   capabilityLevel: Basic Install
-  shortDescription: AWS rbin controller is a service controller for managing rbin resources
+  shortDescription: AWS Recycle Bin controller is a service controller for managing Recycle Bin resources
     in Kubernetes
-displayName: AWS Controllers for Kubernetes - Amazon rbin
+displayName: AWS Controllers for Kubernetes - Amazon Recycle Bin
 description: |-
-  Manage Amazon rbin resources in AWS from within your Kubernetes cluster.
+  Manage Amazon Recycle Bin resources in AWS from within your Kubernetes cluster.
 
 
-  **About Amazon rbin**
+  **About Amazon Recycle Bin**
 
 
-  {ADD YOUR DESCRIPTION HERE}
+  Recycle Bin is a data recovery feature that enables you to restore accidentally deleted Amazon EBS snapshots and EBS-backed AMIs.
+  When using Recycle Bin, if your resources are deleted, they are retained in the Recycle Bin for a time period that you specify 
+  before being permanently deleted.
 
 
   **About the AWS Controllers for Kubernetes**
@@ -28,13 +30,11 @@ description: |-
 
   Please follow the following link: [Red Hat OpenShift](https://aws-controllers-k8s.github.io/community/docs/user-docs/openshift/)
 samples:
-- kind: ExampleCustomKind
-  spec: '{}'
-- kind: SecondExampleCustomKind
+- kind: Rule
   spec: '{}'
 maintainers:
-- name: "rbin maintainer team"
+- name: "recyclebin maintainer team"
   email: "ack-maintainers@amazon.com"
 links:
-- name: Amazon rbin Developer Resources
-  url: https://aws.amazon.com/rbin/developer-resources/
+- name: Amazon Recycle Bin Developer Resources
+  url: https://docs.aws.amazon.com/ebs/latest/userguide/recycle-bin.html
