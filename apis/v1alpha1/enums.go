@@ -51,8 +51,8 @@ const (
 type RuleStatus_SDK string
 
 const (
-	RuleStatus_SDK_pending   RuleStatus_SDK = "pending"
 	RuleStatus_SDK_available RuleStatus_SDK = "available"
+	RuleStatus_SDK_pending   RuleStatus_SDK = "pending"
 )
 
 type ServiceQuotaExceededExceptionReason string
