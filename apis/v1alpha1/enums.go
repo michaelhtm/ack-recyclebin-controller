@@ -24,9 +24,9 @@ const (
 type LockState string
 
 const (
-	LockState_locked         LockState = "locked"
+	LockState_locked LockState = "locked"
 	LockState_pending_unlock LockState = "pending_unlock"
-	LockState_unlocked       LockState = "unlocked"
+	LockState_unlocked LockState = "unlocked"
 )
 
 type ResourceNotFoundExceptionReason string
@@ -39,7 +39,7 @@ type ResourceType string
 
 const (
 	ResourceType_EBS_SNAPSHOT ResourceType = "EBS_SNAPSHOT"
-	ResourceType_EC2_IMAGE    ResourceType = "EC2_IMAGE"
+	ResourceType_EC2_IMAGE ResourceType = "EC2_IMAGE"
 )
 
 type RetentionPeriodUnit string
@@ -52,7 +52,7 @@ type RuleStatus_SDK string
 
 const (
 	RuleStatus_SDK_available RuleStatus_SDK = "available"
-	RuleStatus_SDK_pending   RuleStatus_SDK = "pending"
+	RuleStatus_SDK_pending RuleStatus_SDK = "pending"
 )
 
 type ServiceQuotaExceededExceptionReason string
@@ -70,6 +70,6 @@ const (
 type ValidationExceptionReason string
 
 const (
-	ValidationExceptionReason_INVALID_PAGE_TOKEN      ValidationExceptionReason = "INVALID_PAGE_TOKEN"
+	ValidationExceptionReason_INVALID_PAGE_TOKEN ValidationExceptionReason = "INVALID_PAGE_TOKEN"
 	ValidationExceptionReason_INVALID_PARAMETER_VALUE ValidationExceptionReason = "INVALID_PARAMETER_VALUE"
 )
